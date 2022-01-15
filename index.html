@@ -8,6 +8,7 @@
     <title>Profile Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,10 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="#tecnologias">Técnologias<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#mensagem">Mensagem</a>
                 </li>
                 <li class="nav-item dropdown nav-item active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -33,8 +40,9 @@
                         Redes
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">LinkedIn</a>
-                        <a class="dropdown-item" href="#">GitHub</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/geovanigleidson"
+                            target="_blank">LinkedIn</a>
+                        <a class="dropdown-item" href="https://github.com/geovanig" target="_blank">GitHub</a>
                     </div>
                 </li>
             </ul>
@@ -95,7 +103,7 @@
             </div>
         </div>
 
-        <hr>
+        <hr id="tecnologias">
 
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4">
@@ -123,23 +131,20 @@
                 </div>
             </div>
         </div>
-
     </div>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div id="sobre" class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Sobre mim</h1>
-            <p class="lead">Apaixonado por tecnologia, escolhi trabalhar com desenvolvimento porque acredito na
-                possibilidade de mudar o mundo, resolvendo problemas e criando soluções, mesmo que seja um pouquinho de
-                cada vez. Uso a linguagem Java junto das tecnologias mais atuais do mercado, como Spring, Angular,
-                Bootstrap, Banco de Dados SQL e GIT.</p>
+            <p class="lead">Apaixonado por tecnologia, fascinado por inovação, escolhi trabalhar com desenvolvimento porque acredito na possibilidade de mudar o mundo, resolvendo problemas e criando soluções, mesmo que seja um pouquinho de cada vez. Uso a linguagem Java junto das tecnologias mais atuais do mercado, como Spring, Angular, Bootstrap, Banco de Dados SQL e GIT. Sempre focado em adiquirir mais conhecimento e, consequentmente, agregar mais valor ao que está sendo produzido, para poder me tornar um profissional cada vez vez mais completo.
+            </p>
             <p>
                 A jornada de mil quilômetros começa com um passo.
             </p>
         </div>
     </div>
 
-    <div class="row">
+    <div id="mensagem" class="row">
         <div class="col-md-12">
             <h3 class="text-center">
                 Envie uma mensagem

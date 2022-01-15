@@ -1,7 +1,14 @@
+.paragrafo{
+    color: rgb(156, 214, 210);
+    text-align: center;
+    font-size: 1.2rem;
+    align-items: center;
+}
 
-    .paragrafo{
-        color: rgb(156, 214, 210);
-        text-align: center;
-        font-size: 1.2rem;
-        align-items: center;
-    }
+html {
+    scroll-behavior: smooth;
+  }
+ 
+:target {
+  scroll-margin-top: .8em;
+}
