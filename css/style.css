@@ -1,14 +1,14 @@
+html,body{
+  overflow-x: hidden; 
+}
+
 .paragrafo{
-    color: rgb(156, 214, 210);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 1.2rem;
     align-items: center;
 }
 
-html {
+html{
     scroll-behavior: smooth;
   }
- 
-:target {
-  scroll-margin-top: .8em;
-}
